@@ -1,0 +1,74 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Thai+Looped:regular,700&display=swap");
+
+@font-face {
+	font-family: "MechePro";
+	src: url("../fonts/MechePro-Regular.woff2") format("woff2"), url("../fonts/MechePro-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "MechePro";
+	src: url("../fonts/MechePro-Medium.woff2") format("woff2"), url("../fonts/MechePro-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "MechePro";
+	src: url("../fonts/MechePro-Bold.woff2") format("woff2"), url("../fonts/MechePro-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+body{
+    font-family: "IBM Plex Sans Thai Looped", sans-serif;
+    font-size: 20px;
+}
+
+.title{
+    font-size: 55px;
+    color:cadetblue;
+    font-family: "MechePro";
+    font-weight: 700;
+    text-shadow: 5px 5px 70px cadetblue;
+}
+
+h2{
+    color: coral;
+    font-family: "MechePro";
+    font-size: 35px;
+    font-weight: 400;
+    text-shadow: 5px 5px 45px coral;
+}
+
+.navigation-list{
+    color: cornflowerblue;
+}
+
+.speed{
+    color: darkseagreen;
+}
+
+.speed-list{
+    color: darkslateblue;
+}
+
+.measurement-info{
+    color: darkseagreen; 
+}
+
+.order{
+    font-size: 15px;
+    color: forestgreen;
+    font-family: "MechePro";
+}
+
+.important{
+    color: goldenrod;
+}
